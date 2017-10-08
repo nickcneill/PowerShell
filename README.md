@@ -1,5 +1,5 @@
 # PowerShell
-Script #1 New-PSSMenuItem.ps1
+Script #1 ![New-PSSMenuItem](New-PSSMenuItem.ps1)
 
 This script runs a simple registry change using the New-Item and New-ItemProperty CMDLET.
 
