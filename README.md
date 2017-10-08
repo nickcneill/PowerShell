@@ -1,7 +1,7 @@
 # PowerShell
 Script #1 ![New-PSSMenuItem](New-PSSMenuItem.ps1)
 
-This script runs a simple registry change using the New-Item and New-ItemProperty CMDLET.
+This script adds a PowerShell Script option to the New Context Menu Iterm in Windows Explorer by making a simple registry change using the New-Item and New-ItemProperty CMDLET.
 
 Adds a PS-Drive that is mapped to {HKCR}:HKEY+CLASSES_ROOT using the new.
 It was neccesary to run the New-Item CMDLET which creates the Registry Key "ShellNew" by NOTing it against it alreadying existing to avoid an error. We check for the Key by using the Test-Path CMDLET referencing the HKCR PSDrive we already defined. From there we can call the propper CMDLETS in either code block of the IF or ELSE statements.
