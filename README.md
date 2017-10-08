@@ -6,7 +6,7 @@ This script runs a simple registry change using the New-Item and New-ItemPropert
 Adds a PS-Drive that is mapped to {HKCR}:HKEY+CLASSES_ROOT using the new.
 It was neccesary to run the New-Item CMDLET which creates the Registry Key "ShellNew" by NOTing it against it alreadying existing to avoid an error. We check for the Key by using the Test-Path CMDLET referencing the HKCR PSDrive we already defined. From there we can call the propper CMDLETS in either code block of the IF or ELSE statements.
 
-![ScreenShot](PowerShell/Screenshots/Screenshot_1.png)
+![ScreenShot](Screenshots/Screenshot_1.png)
 
 REFERENCES:
 [New-Item](https://technet.microsoft.com/en-us/library/ee176914.aspx)
