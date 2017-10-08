@@ -1,3 +1,7 @@
+#Author = "Nick Neill"
+#GitHub = "https://github.com/nickcneill"
+#website = "http://www.nnics.com/"
+
 $registryPath = "HKCR:\.ps1\ShellNew"
 $Name = "NullFile"
 $value = "1"
